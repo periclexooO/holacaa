@@ -1,0 +1,241 @@
+/*------------------Estilos de buscar zona------------------*/
+
+.caja_busqueda{
+    text-align: center;
+    height: 60px;
+    width: 355px;
+    margin: auto;
+}
+
+.titulo_busc{
+    width: 145px;
+    margin-top: 9px;
+    margin-left: 10px;
+    float: left;
+}
+
+.fbus{
+    width: 200px;
+    float: left;
+}
+
+/*------------------Estilos de contactos------------------*/
+
+.atencion{
+    padding: 15px;
+    margin-bottom: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.atencion h6{
+    text-align: center;
+}
+
+.caja_contactos{
+    margin-bottom: 10px;
+}
+
+.iconoContactos{
+    float: left;
+    width: 65px;
+    text-align: center;
+}
+
+.iconoContactos img{
+    width: 40px;
+    margin-top: 5px;
+}
+
+.iconoContactos img.icno{
+    width: 40px;
+    margin-top: 9px;
+}
+
+.contacto{
+    
+}
+
+.contacto ul{
+    margin: 0px;
+}
+
+.vertical_line{
+    width: 90%;
+    height: 0px;
+    margin: auto;
+    border: 1px inset;
+}
+
+/*------------------Estilos del formulario------------------*/
+
+h5{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+.columna_cont{
+    padding: 15px;
+    margin-bottom: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+.fc{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fc input, select {
+    width: 90%;
+    height: 30px;
+    margin: 0.3rem;
+}
+
+.fc textarea {
+    width: 90%;
+    height: 100px;
+    margin: 0.3rem;;
+}
+
+#enviarCom{
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: #F58634;
+    border-radius: 7px;
+    width: 90%;
+    height: 40px;
+}
+
+option{
+    background-color: white;
+}
+
+.mapa{
+    padding: 10px;
+    text-align: center;
+}
+
+.link_mapa{
+    width: 90%;
+    height: 300px;
+}
+
+/*------------------Estilos del footer------------------*/
+
+footer{
+    background-color: #9C9C9C;
+    color: white;
+}
+
+.cont_footer{
+    width: 90%;
+    margin: auto;
+}
+
+.fcont{
+    width: 200px;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+.cont_footer ul, .sub-serv{
+    margin: 0;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.cont_footer a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F58634;
+}
+
+.titulo_cont{
+    font-weight: bold;
+}
+
+.fooCajaRedes{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.fooIcono{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.fooLogo{
+    width: 250px;
+}
+
+.copy{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+/*----------------Estilos responsive----------------*/
+
+@media(min-width: 600px){
+    
+    /*-----------Contactos-----------*/
+    .cont_info{
+        display: flex;
+    }
+    
+    .atencion{
+        width: 40%;
+        display: block;
+    }
+    
+    .vertical_line{
+        width: 0px;
+        height: 200px;
+    }
+    
+    /*-----------formulario-----------*/
+    .cont_contacto{
+        display: flex;
+    }
+    
+    .fc{
+        width: 30%;
+        margin: auto;
+        position: absolute;
+    }
+    
+    /*-----------mapa-----------*/
+    .mapa{
+        width: 60%;
+        float: right;
+    }
+    
+    .link_mapa{
+        height: 370px;
+    }
+    
+    /*-----------footer-----------*/
+    .cont_footer{
+        display: flex;
+    }
+    
+    .fooCajaContacto, .fooCajaServicios, .fooCajaRedes{
+        width: 30%;
+        float: left;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+}
